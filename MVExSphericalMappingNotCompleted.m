@@ -28,6 +28,11 @@ for x1=1:512
         dy= round((r2*106/362)*sind(tetha)*abs(cosd(tetha)*2/sqrt(2)));
         y2= y1+ dy;
 
+        % dx= round((r2*106/362)*cosd(tetha)*(1-abs(sind(tetha))));
+        % x2= x1- dx;
+        % dy= round((r2*106/362)*sind(tetha)*(1-abs(cosd(tetha))));
+        % y2= y1+ dy;
+
         % dx= round((r2*106/362)*cosd(tetha)*abs(cosd(tetha)));
         % x2= x1- dx;
         % dy= round((r2*106/362)*sind(tetha)*abs(sind(tetha)));
